@@ -87,3 +87,98 @@
     color: inherit;
     display: block;
   }
+
+  .WatchMain
+  {
+    display: flex;
+    width: 100vw;
+    /* border: black solid 4px; */
+    
+  }
+
+  .liveChatContainer
+  {
+    /* border: black solid 4px; */
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    background-color: rgb(233, 225, 225);
+    padding: 10px;
+    overflow-y: scroll;
+    position: relative;
+  }
+
+  .liveChatText {
+    position: sticky;
+    top: 0; /* or top: 1rem; */
+    text-align: center;
+ 
+    z-index: 10;
+    padding: 0.5rem 0;
+  }
+  .youtubeclip
+{
+    height: 540px;
+    width: 850px;
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+
+.ChatUser
+{
+    display: flex;
+    padding: 10px;
+}
+ 
+.chatUserName
+{
+    padding: 5px;
+    font-size: small;
+}
+.chatUserImg
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px black;
+    object-fit: cover;
+    
+}
+.chatUserDetail
+{
+    padding: 5px;
+    margin-left: 20px;
+    font-size: smaller;
+}
+
+.LiveChatTextContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.liveChatInputContainer
+{
+    width: 100%;
+    background-color: rgb(233, 225, 225);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.liveChatInput
+{
+    width: 70%;
+    padding: 5px;
+    border-radius: 9999px;
+}
+.liveChatButton
+{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 9999px;
+    background-color: rgb(206, 174, 136);
+}

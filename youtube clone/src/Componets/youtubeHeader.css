@@ -65,7 +65,7 @@ body{
     height: 40px;
     width: 40px ;
     justify-self: end;
-    
+    opacity: inherit;
     /* grid-column: 3; */
 }
 
@@ -90,11 +90,3 @@ body{
 }
 
 
-.youtubeclip
-{
-    height: 450px;
-    width: 850px;
-    margin: 20px;
-    /* padding: 10px; */
-}
- 
